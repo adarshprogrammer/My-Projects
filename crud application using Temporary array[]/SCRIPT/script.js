@@ -1,7 +1,6 @@
-const employees = document.querySelectorAll(".form-control")
-let Table = document.querySelector("table")
-let filterbydata = document.getElementsByName("btnradio")
-let Data = []
+const employees = document.querySelectorAll(".form-control");
+let Table = document.querySelector("table");
+let Data = [];
 let theader = `<table class="table table-bordered"><tr><th class="table-dark">id</th><th class="table-dark">Employee Name</th><th class="table-dark">Employee Address</th><th class="table-dark">Employee Salary</th><th class="table-dark">Employee Photo</th><th class="table-dark">Edit/Delete</th></tr></table>`
 const submit = () => {
     const name = employees[0].value.trim();
@@ -82,7 +81,7 @@ function filter(y) {
     <td class="table-light">${element.Name}</td>
     <td class="table-light">${element.Address}</td>
     <td class="table-light">${element.Salary}/-</td>
-    <td class="table-light">${element.Department}"></td>
+    <td class="table-light">${element.Department}</td>
     <td class="table-light">
     <button class="edit" onclick=Edit(${index})><i class='fa fa-edit'></i></button>
     <button class="delete"onclick=Delete(${index})><i class="fa fa-trash"></i></span></button></td>   
