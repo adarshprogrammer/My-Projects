@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Login page</title>
+    <link rel="stylesheet" href="Css/login.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="common/Letter-A-blue-icon.png">
+
+</head>
+<body>
+    <div class="box">
+<img src="common\login bg.jpg" alt="">
+<div class="form">
+    <form>
+      <a id="header" href="https://www.chetu.com"><header>Chetu India Co.</header></a>
+    <h1>Login</h1>
+    <br>
+    <h3>UserID</h3>
+    <input type="text" placeholder="Enter UserID" id="user"  required >
+    <h3>Password</h3>
+    <input type="password" placeholder="Enter Password" id="password"  required>
+    <i class="fa fa-eye" aria-hidden="true"  id="eye"></i>
+    
+    <a href="#">Forget Password?</a>
+    <br>
+    <a href="signup.html">Signup</a>
+    <br>
+</form>
+    <button onclick="valid()">Login</button>
+
+</div>
+    </div>
+    <script src="script/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $(".box .form").mouseover(()=>{
+                $(".box img").css({
+                    "filter":"blur(5px)",
+                    "trasition":"0.1s",
+                   "transform": "scale(0.9)"
+
+                })
+             })
+             $(".box .form").mouseleave(()=>{
+                $(".box img").css({
+                    "filter":"blur(0px)",
+                    "trasition":"0.1s",
+                   "transform": "scale(1)"
+
+                })
+                
+        })
+    })
+    
+  
+    </script>
+    <script>
+      let UserID=document.getElementById("user")
+      let Pass= document.getElementById("password")
+    let eye= document.getElementById('eye')
+    user={name:"Adarsh@programmer",pass:"1234"}
+        eye.addEventListener('click',function(){
+            if(Pass.type=="password")
+            {
+                Pass.type="text";
+                this.className="fa fa-eye-slash";
+                
+            }
+            else{
+                    Pass.type="password";
+                   this.className="fa fa-eye";
+                            
+            }
+            
+        })
+        function valid(){
+            console.log('validation')
+            if(UserID.value!=user.name || Pass.value!=user.pass)
+            {    UserID.value="";
+                UserID.placeholder="Invalid User or Password !";
+                UserID.style="border-color:red";
+                Pass.style="border-color:red";
+                return false;
+                
+            }
+            else{
+
+                
+                window.location.href="https://github.com/adarshprogrammer/My-Projects"
+                
+
+            }
+
+       
+
+    }
+    </script>
+    <script>
+          
+    </script>
+</body>
+</html>
