@@ -24,6 +24,7 @@ const submit = () => {
     employees[0].value = "";
     employees[1].value = "";
     employees[2].value = "";
+    employees[3].value = "";
 
 }
 
