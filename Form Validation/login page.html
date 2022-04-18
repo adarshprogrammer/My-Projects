@@ -84,8 +84,10 @@
             if(UserID.value!=user.name || Pass.value!=user.pass)
             {    UserID.value="";
                 UserID.placeholder="Invalid User or Password !";
+                UserID.focus();
                 UserID.style="border-color:red";
                 Pass.style="border-color:red";
+                Pass.value="";
                 return false;
                 
             }
