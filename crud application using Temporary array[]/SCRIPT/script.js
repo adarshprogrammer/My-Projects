@@ -1,7 +1,7 @@
 const employees = document.querySelectorAll(".form-control");
 let Table = document.querySelector("table");
 let Data = [];
-let theader = `<table class="table table-bordered"><tr><th class="table-dark">id</th><th class="table-dark">Employee Name</th><th class="table-dark">Employee Address</th><th class="table-dark">Employee Salary</th><th class="table-dark">Employee Photo</th><th class="table-dark">Edit/Delete</th></tr></table>`
+let theader = `<table class="table table-bordered"><tr><th class="table-dark">id</th><th class="table-dark">Employee Name</th><th class="table-dark">Employee Address</th><th class="table-dark">Employee Salary</th><th class="table-dark">Department</th><th class="table-dark">Edit/Delete</th></tr></table>`
 const submit = () => {
     const name = employees[0].value.trim();
     const address = employees[1].value.trim();
