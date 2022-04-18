@@ -52,10 +52,10 @@ let Edit = (edt) => {
         if (I = prompt("If do you change Address?\n  Enter ADDRESS and press ok. \n else Press cancel")) {
             Data[edt].Address = I.toUpperCase();
         }
-        if (N = prompt("If do you change Sallary?\n Enter SALARY and press ok. \n else Press cancel")) {
+        if (N = prompt("If do you change Salary?\n Enter SALARY and press ok. \n else Press cancel")) {
             Data[edt].Salary = N;
         }
-        if (U = prompt("If do you change Sallary?\n  Enter DEPARMENT and press ok. \n else Press cancel")) {
+        if (U = prompt("If do you change Department?\n  Enter DEPARMENT and press ok. \n else Press cancel")) {
             Data[edt].Department = U.toUpperCase();
         }
     }
