@@ -22,7 +22,7 @@ spacial[2].onclick = () =>
         spacial[2].innerHTML = "OFF";
         setTimeout(() => { display[0].style.display = "block" }, 100);
         setTimeout(() => { display[0].style = "background-color:rgb(128, 255, 202)" }, 500);
-        setTimeout(() => { display[0].value = 'Loading..' }, 500);
+        setTimeout(() => { display[0].value = 'Loading..' }, 600);
         setTimeout(() => { display[0].value = "" }, 3000);
 
     }
