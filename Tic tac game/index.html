@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>tic tac game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://cdn0.iconfinder.com/data/icons/web-ui-vol-4/64/tic_tac_toe-512.png">
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <h4>TIC TAC GAME <span id="author"><i>Make by Adarshkumar</i></span></h4>
+    </nav><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="tic">
+                <h4>Player:- <span>X</span></h4>
+                <div class="row">
+                    <div class="col-md-4" style="border-top:none;border-left:none;"></div>
+                    <div class="col-md-4" style="border-top:none"></div>
+                    <div class="col-md-4" style="border-top:none;border-right:none;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4" style="border-left:none;"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4" style="border-right:none;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 " style="border-bottom:none;border-left:none;"></div>
+                    <div class="col-md-4" style="border-bottom:none;"></div>
+                    <div class="col-md-4" style="border-bottom:none;border-right:none;"></div>
+                </div><br>
+                <button class="btn btn-primary" onclick="remove()">reset</button>
+            </div>
+            <div class="col-md-6">
+                <h1>Game Score ...</h1>
+                <h2>game x won <span>0</span></h2>
+                <h2>game o won <span>0</span></h2>
+                <iframe src="https://giphy.com/embed/gK6hptaI24V7skRGfI" width="400px" height="336" frameBorder="0"
+                    class="giphy-embed" allowFullScreen></iframe>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+
+    body {
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        background-size: cover;
+
+        background-image: url("https://cdn.vectorstock.com/i/1000x1000/14/85/abstract-black-hexagon-pattern-on-light-blue-vector-24261485.webp")
+    }
+
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    nav {
+        color: rgb(253, 249, 248);
+
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+    div {
+
+        
+        background-color: rgba(255, 3, 3, 0.035);
+        font-family: 'Changa', sans-serif;
+        color: antiquewhite;
+
+    }
+
+    .col-md-4 {
+
+        border: 5px solid white;
+        height: 130px;
+
+        width: 100px;
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Changa', sans-serif;
+        font-family: 'Oleo Script', cursive;
+        font-family: 'Tapestry', cursive;
+
+    }
+
+    .col-md-6 {
+
+        background-color: rgba(0, 0, 0, 0.302);
+    }
+
+    h1 {
+        color: rgb(251, 62, 62);
+        background-color: rgba(63, 215, 25, 0.515);
+        text-shadow: 1px 1px 10px rgb(16, 34, 190);
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 50px;
+        height: 10vh;
+    }
+
+    h2 {
+        background-color: blanchedalmond;
+        text-align: center;
+        padding-top: 20px;
+        height: 10vh;
+        border-radius: 50px;
+        color: rgb(148, 10, 10);
+        text-shadow: 1px 1px 10px rgba(18, 18, 18, 0);
+
+    }
+
+    #tic {
+        background-color: rgba(14, 105, 105, 0);
+        padding-top: 15vh;
+        padding-left: 6vh;
+        padding-right: 6vh;
+
+    }
+
+    iframe {
+        border-radius: 200px;
+        box-shadow: 1px 2px 20px rgb(4, 205, 192);
+
+    }
+
+    #author {
+        color: aqua;
+        font-family: 'Caveat', cursive;
+        font-family: 'Orbitron', sans-serif;
+        font-family: 'Tangerine', cursive;
+    }
