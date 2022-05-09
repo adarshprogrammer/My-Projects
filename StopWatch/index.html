@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch | adarshprogrammer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+
+
+    <h2 style="position: absolute;left:50%;top:50px;transform: translate(-50%,-50%);"><i class="fa-solid fa-stopwatch"></i> Stopwatch</h2>
+    
+   
+   
+
+    <!-- front -->
+   
+   
+    <div class="front">
+
+
+    <div class="btn"></div>
+    <i class="fa-solid fa-circle-notch">node</i>
+
+
+
+
+
+
+    <!-- stopwatch -->
+
+    <div class="stopwatch">
+
+        <span id="count" >00</span>
+        <br>
+        <br>
+
+
+        <span id="hr" class="number">00</span><span class="txt">hr</span>
+
+
+        <span id="min" class="number">00</span><span class="txt">min</span>
+
+        <span id="sec" class="number">00</span><span class="txt">sec</span>
+
+        
+ <br>
+ <br>
+
+
+
+
+        
+    <i class="fa-solid fa-pause" onclick="stop()" id="pause"></i>
+    <i class="fa-solid fa-play"  onclick="start()" id="start"></i>
+    <i class="fa-solid fa-arrow-rotate-right" onclick="reset()"></i>
+
+
+    </div>
+
+
+
+
+    <!-- stopwatch -->
+
+
+
+
+
+
+
+
+
+    <div class="glass"></div>
+
+    </div>
+
+
+
+    <!-- front -->
+
+
+
+
+    <div class="back"></div>
+    <div class="belt"></div>
+
+
+
+    <h6 style="position: absolute;text-align: center;bottom:30px;left:50%;transform: translate(-50%,-50%);">fast your life <i class="fa-solid fa-person-running"></i> <br> follow me <a href="https://github.com/adarshprogrammer" style="text-decoration: none;">adarshprogrammer</a></h6>
+
+
+
+
+
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/a8ca07b5eb.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
